@@ -14,10 +14,7 @@ const App = () => {
                     </div>
                 </div>
                 <div>
-                    <Form
-                    // todos = {todos}
-                    // setTodos = {setTodos}
-                    />
+                    <Form/>
                 </div>
             </div>
         </>

@@ -1,8 +1,6 @@
 *{
     margin:0;
     padding: 0;
-    /* background-color: #000; */
-    /* color: #fff; */
 }  
 
 .header{
@@ -36,7 +34,6 @@
     margin-left: 30px;
 }
 .button-add:hover{
-    /* background-color: #fff; */
     background : linear-gradient(to right bottom, #7476aa, #c89666);
     color: #000;
     transition: background-color 1s ease;

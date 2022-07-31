@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
-}
+*{
+    margin:0;
+    padding: 0;
+    /* background-color: #000; */
+    /* color: #fff; */
+}  
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+    background : linear-gradient(to right bottom, #7476aa, #c89666);
+    color: #fff;
+    padding: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.task-input{
+    border-radius: 25px;
+    border: 1px solid;
+    outline: none;
+    height: 10px;
+    width: 25%;
+    padding: 15px;
+    color: #000;
+    background-color: #fff;
+    font-size: 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.task-label{
+    font-size: 25px;
+    margin: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.button-add{
+    border: 1px solid #fff;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 15px;
+    margin: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.div-button{
+    margin-left: 30px;
+}
+.button-add:hover{
+    /* background-color: #fff; */
+    background : linear-gradient(to right bottom, #7476aa, #c89666);
+    color: #000;
+    transition: background-color 1s ease;
+}
+.photo-input{
+    /* background-color: black; */
+    border: 1px solid;
+    border-radius: 25px;
+    height: 20px;
+    font-size: 15px;
+    padding: 20px;
+    width: 15%;
+    margin: 15px;
+}
+img{
+    height: 120px;
+    width: 120px;
 }
